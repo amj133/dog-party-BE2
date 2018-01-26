@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  order: 2, 3, 4;
+  justify-content: flex-end;
+  background-color: rgb(145, 230, 236);
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  background-image: url('../../images/park.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 225px;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  height: 260px;
+  width: 100%;
+  font-size: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  background-color: rgb(75, 146, 176);
+  height: 113px;
+  width: 100%;
+  color: white;
+}
+
+.what-are-dogs {
+  height: 13px;
+  width: 100px;
+}
+
+.social-media-links {
+  display: inline;
+}
+
+#how, #what, #facts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 15px;
+}
